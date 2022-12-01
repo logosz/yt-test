@@ -1,9 +1,11 @@
 # Youtube Music test for eFishery
-**Description**
+
+## Description
+
 This repository was created to fulfill one of the hiring processes at eFishery.
 This reposiroty was build under mac environment.
 
-**Prerequisite**
+## Prerequisite
 - Maven 
 - Java 1.8
 - Selenium
@@ -11,14 +13,14 @@ This reposiroty was build under mac environment.
 - webdriver
 - Chrome browser
 
-**Installation**
+## Installation
 - Java installation https://www.java.com/en/download/help/mac_install.html
 - Maven installation https://maven.apache.org/install.html
 - Download latest chrome webdriver https://chromedriver.chromium.org/downloads
 - Download latest chrome browser https://www.google.com/intl/en/chrome/
 - Download maven dependency (Selenium,  Cucumber) https://mvnrepository.com/
 
-**How to run the project**
+## How to run the project
 - Clone project with command
 ```sh
 gti clone https://github.com/logosz/yt-test.git
@@ -32,7 +34,7 @@ mvn install -DskipTests
 mvn clean test -Dcucumber.filter.tags="@test_case_tag"
 ```
 
-**Report**
+## Report
 - Refer to this file
 ```sh
 src/test/resources/reports/cucumber.html
