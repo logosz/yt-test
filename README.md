@@ -39,6 +39,7 @@ mvn clean test -Dcucumber.filter.tags="@test_case_tag"
 ```sh
 src/test/resources/reports/cucumber.html
 ```
-
+## ![Alt text](src/test/resources/image/1.png)
+## ![Alt text](src/test/resources/image/2.png)
 
 
